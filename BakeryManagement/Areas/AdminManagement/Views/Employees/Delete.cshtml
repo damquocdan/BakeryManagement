@@ -1,0 +1,128 @@
+﻿@model BakeryManagement.Models.Employee
+
+@{
+    ViewData["Title"] = "Xóa Nhân Viên";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+<style>
+    h1 {
+        color: #dc3545;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: #ff6f61;
+    }
+
+    h4 {
+        color: #343a40;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 8px 15px;
+        border-radius: .25rem;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color: white;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+    dl {
+        margin: 0;
+        padding: 0;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        margin-bottom: 10px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-sm-2 {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .col-sm-10 {
+        color: #333;
+    }
+
+    hr {
+        border-top: 1px solid #ddd;
+    }
+</style>
+<h1>Xóa Nhân Viên</h1>
+
+<h3>Bạn có chắc chắn muốn xóa nhân viên này không?</h3>
+<div>
+    <h4>Thông Tin Nhân Viên</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EmployeeId" />
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Trở Lại Danh Sách</a>
+    </form>
+</div>
+
+

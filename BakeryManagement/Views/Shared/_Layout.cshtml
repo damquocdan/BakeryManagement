@@ -1,0 +1,160 @@
+﻿@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BakeryManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BakeryManagement.styles.css" asp-append-version="true" />
+    <style>
+        /* Apply main background color */
+        body {
+            background-color: #ffe2de;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header and text styles */
+        h1 {
+            color: #f04236;
+        }
+
+        p.text-secondary {
+            color: #6c757d;
+        }
+
+        /* Card styles */
+        .card {
+            border: 1px solid #f04236;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            background-color: #ffffff;
+            border-top: 1px solid #f04236;
+        }
+
+        .card-title {
+            color: #f04236;
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #555;
+        }
+
+        .btn-outline-primary {
+            border-color: #f04236;
+            color: #f04236;
+        }
+
+            .btn-outline-primary:hover {
+                background-color: #f04236;
+                color: white;
+            }
+
+        .btn-primary {
+            background-color: #f04236;
+            border-color: #f04236;
+        }
+
+            .btn-primary:hover {
+                background-color: #e0362e;
+                border-color: #e0362e;
+            }
+
+        .btn-sm {
+            font-size: 0.875rem;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f04236;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="color:#f04236; font-size:30px">
+                    <img src="~/images/logo.png" alt="Bakery Logo" style="height: 80px; margin-right: 10px;">
+                    Bình Bánh Ngọt
+                </a>
+
+                <!-- Toggle Button for Mobile View -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        </li>
+                        
+
+                        @* Kiểm tra nếu đã đăng nhập *@
+                        @if (Context.Session.GetString("CustomerLogin") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Index" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Đơn Bánh</a>
+                            </li>
+                            <!-- Hiển thị Giỏ hàng và Đăng xuất khi đã đăng nhập -->
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Carts" asp-action="Index" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Giỏ hàng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Customers" asp-action="Details" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Thông tin cá nhân</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="@Url.Action("Logout", "LoginC")">Đăng xuất</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <!-- Hiển thị Đăng nhập và Đăng ký khi chưa đăng nhập -->
+                            <li class="nav-item">
+                                <a class="nav-link text-dark"  asp-controller="LoginC" asp-action="Index">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Đăng ký</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

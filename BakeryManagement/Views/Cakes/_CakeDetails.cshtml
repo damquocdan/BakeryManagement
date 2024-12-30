@@ -1,0 +1,78 @@
+﻿@model BakeryManagement.Models.Cake
+<style>
+    .cake-details-container {
+        background-color: #ffffff; /* White background for the cake details */
+        border-radius: 10px;
+        padding: 30px;
+        margin: 50px auto;
+        max-width: 800px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Cake name styling */
+    .cake-name {
+        font-size: 2rem;
+        color: #ff5f57; /* Soft pink color for the cake name */
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* Divider between name and details */
+    .divider {
+        border: 1px solid #ff5f57; /* Pink divider color */
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    /* Styling for the list of cake details */
+    .cake-details-list dt {
+        font-weight: bold;
+        color: #007bff; /* Blue color for labels */
+    }
+
+    .cake-details-list dd {
+        color: #555;
+        font-size: 1.1rem;
+    }
+
+    /* Styling for labels and values */
+    .cake-label {
+        font-size: 1.1rem;
+        color: #007bff; /* Blue color for labels */
+    }
+
+    .cake-value {
+        font-size: 1.1rem;
+        color: #343a40; /* Dark color for values */
+    }
+
+    /* Hover effects for the labels */
+    .cake-label:hover {
+        color: #ff5f57; /* Pink color on hover */
+        cursor: pointer;
+    }
+
+    /* Add some spacing between list items */
+    .cake-details-list dt, .cake-details-list dd {
+        margin-bottom: 10px;
+    }
+</style>
+<div class="cake-details-container">
+    <img src="@Html.DisplayFor(model => model.Image)" width="100%" />
+    <h4 class="cake-name">@Model.Name</h4>
+    <hr class="divider" />
+    <dl class="row cake-details-list">
+
+        <dt class="col-sm-4 cake-label">Mô tả</dt>
+        <dd class="col-sm-8 cake-value">@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt class="col-sm-4 cake-label">Giá bánh</dt>
+        <dd class="col-sm-8 cake-value">@Html.DisplayFor(model => model.Price)</dd>
+
+        <dt class="col-sm-4 cake-label">Loại bánh</dt>
+        <dd class="col-sm-8 cake-value">@Html.DisplayFor(model => model.Category)</dd>
+
+        <dt class="col-sm-4 cake-label">Số lượng</dt>
+        <dd class="col-sm-8 cake-value">@Html.DisplayFor(model => model.Stock)</dd>
+    </dl>
+</div>

@@ -1,0 +1,164 @@
+﻿@model BakeryManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Title Styling */
+    .page-title {
+        text-align: center;
+        font-size: 2rem;
+        color: #ff69b4; /* Sweet pink color */
+        margin-top: 10px;
+    }
+
+    /* Section Styling */
+    .section-title {
+        font-size: 1.8rem;
+        color: #ff6f61; /* Coral for section headings */
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* Divider between sections */
+    .section-divider {
+        border-top: 3px solid #ff69b4; /* Pink divider */
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    /* Form container */
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    /* Form box */
+    .form-container {
+        background-color: #ffffff; /* White background for form */
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* Form labels and inputs */
+    .form-label {
+        font-size: 1rem;
+        color: #ff6f61; /* Coral for labels */
+        font-weight: bold;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #f0f0f0;
+        background-color: #fff3f3; /* Light pink background */
+        font-size: 1rem;
+        color: #3e3e3e;
+    }
+
+        .form-input:focus {
+            border-color: #ff6f61; /* Coral border on focus */
+            outline: none;
+            background-color: #fbe8e8; /* Lighter pink when focused */
+        }
+
+    /* Error messages styling */
+    .text-danger {
+        color: #e74c3c;
+    }
+
+    /* Submit button styling */
+    .btn-submit {
+        background-color: #ff6f61; /* Coral background for button */
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        width: 100%;
+        cursor: pointer;
+    }
+
+        .btn-submit:hover {
+            background-color: #ff4757; /* Darker coral on hover */
+        }
+
+    /* Back to list link */
+    .back-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .back-link a {
+            color: #ff6f61; /* Coral color for the link */
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+            .back-link a:hover {
+                text-decoration: underline;
+            }
+</style>
+<h1 class="page-title">Sửa tài khoản</h1>
+<hr class="section-divider" />
+<div class="container">
+    <div class="form-container">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CustomerId" />
+
+            <div class="form-group">
+                <label asp-for="Name" class="form-label">Tên</label>
+                <input asp-for="Name" class="form-input" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="form-label">Số điện thoại</label>
+                <input asp-for="Phone" class="form-input" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-input" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="form-label">Địa chỉ</label>
+                <input asp-for="Address" class="form-input" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birthday" class="form-label">Sinh nhật</label>
+                <input asp-for="Birthday" class="form-input" />
+                <span asp-validation-for="Birthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="form-label">Mật khẩu</label>
+                <input asp-for="Password" class="form-input" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn-submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="back-link">
+    <a onclick="window.history.back();">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<BakeryManagement.Models.Cart>
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center text-primary">Giỏ Hàng</h1>
+
+<p class="text-center">
+    <a asp-controller="Orders" asp-action="ConfirmAddress" class="btn btn-primary btn-lg">Đặt Hàng</a>
+</p>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-secondary">Giỏ hàng của bạn hiện tại không có sản phẩm nào.</p>
+}
+else
+{
+    <form method="post" asp-action="UpdateCart">
+        <table class="table table-bordered table-striped">
+            <thead style="background-color: #f04236; color: white;">
+                <tr>
+                    <th>Ảnh</th>
+                    <th>Tên Bánh</th>
+                    <th>Số Lượng</th>
+                    <th>Giá</th>
+                    <th>Tổng Giá</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@item.Cake.Image" alt="@item.Cake.Name" style="height: 50px;" />
+                        </td>
+                        <td>
+                            @item.Cake.Name
+                        </td>
+                        <td>
+                            <input type="number" name="updatedQuantities[@item.CartId]" value="@item.Quantity" min="1" class="form-control" />
+                        </td>
+                        <td>
+                            @item.Cake.Price.ToString("C")
+                        </td>
+                        <td>
+                            @((item.Quantity * item.Cake.Price).ToString("C"))
+                        </td>
+                        <td>
+                            <a asp-action="RemoveFromCart" asp-route-id="@item.CartId" class="btn btn-danger btn-sm">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-success btn-lg">Cập Nhật Giỏ Hàng</button>
+        </div>
+    </form>
+}

@@ -1,0 +1,131 @@
+﻿@model BakeryManagement.Models.Cake
+
+@{
+    ViewData["Title"] = "Tạo Mới";
+    Layout = "~/Areas/AdminManagement/Views/Shared/Admin.cshtml";
+}
+<style>
+    h1 {
+        color: #007bff;
+    }
+
+    h4 {
+        color: #555;
+        font-size: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .form-control {
+        height: calc(1.5em + .75rem + 2px);
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .col-md-6 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+</style>
+
+<h1>Tạo Mới Bánh</h1>
+
+<h4>Thông Tin Bánh</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Tên Bánh -->
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Tên Bánh</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Mô Tả -->
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Mô Tả</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- Giá -->
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Giá</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <!-- Danh Mục -->
+            <div class="form-group">
+                <label asp-for="Category" class="control-label">Danh Mục</label>
+                <input asp-for="Category" class="form-control" />
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <!-- Hình Ảnh -->
+            <div class="form-group">
+                <label asp-for="Image" class="control-label">Hình Ảnh</label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+
+            <!-- Số Lượng -->
+            <div class="form-group">
+                <label asp-for="Stock" class="control-label">Số Lượng</label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+
+            <!-- Nút Tạo Mới -->
+            <div class="form-group">
+                <input type="submit" value="Tạo Mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Trở Về Danh Sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+

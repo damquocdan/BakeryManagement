@@ -1,0 +1,111 @@
+﻿@model BakeryManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded p-4">
+        <h1 class="text-center">Khách hàng :@Html.DisplayFor(model => model.Name) </h1>
+        <hr />
+
+        <h4 class="text-center">Thông tin khách hàng</h4>
+        <dl class="row">
+            <dt class="col-sm-5">Tên</dt>
+            <dd class="col-sm-7">@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="col-sm-5">Số điện thoại</dt>
+            <dd class="col-sm-7">@Html.DisplayFor(model => model.Phone)</dd>
+
+            <dt class="col-sm-5">Email</dt>
+            <dd class="col-sm-7">@Html.DisplayFor(model => model.Email)</dd>
+
+            <dt class="col-sm-5">Địa chỉ</dt>
+            <dd class="col-sm-7">@Html.DisplayFor(model => model.Address)</dd>
+
+            <dt class="col-sm-5">Sinh nhật</dt>
+            <dd class="col-sm-7">@Html.DisplayFor(model => model.Birthday)</dd>
+
+        </dl>
+
+        <div class="text-center mt-4">
+            <a asp-action="Edit" asp-route-id="@Model?.CustomerId" class="btn btn-primary btn-lg">Sửa</a>
+            <a onclick="window.history.back();" class="btn btn-secondary btn-lg ml-3">Quay lại</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 800px;
+        margin-top: 30px;
+    }
+
+    .card {
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 20px;
+        color: #666;
+        font-weight: 600;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #333;
+    }
+
+    dd {
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .btn {
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 12px 30px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-secondary {
+        background-color: #e0e0e0;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #c0c0c0;
+        }
+
+    .mt-4 {
+        margin-top: 20px;
+    }
+
+    .ml-3 {
+        margin-left: 15px;
+    }
+</style>

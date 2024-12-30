@@ -1,0 +1,29 @@
+﻿@model BakeryManagement.Models.Customer
+
+@{
+    ViewData["Title"] = "Xác nhận địa chỉ giao hàng";
+}
+
+<h1>Xác nhận địa chỉ giao hàng</h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<form method="post" asp-action="PlaceOrderWithAddress">
+    <div class="form-group">
+        <label for="newAddress">Địa chỉ giao hàng</label>
+        <input type="text" name="newAddress" class="form-control" value="@Model.Address" placeholder="Nhập địa chỉ mới nếu cần" />
+    </div>
+
+    <div class="form-group">
+        <label for="deliveryDate">Ngày giao hàng</label>
+        <input type="date" name="deliveryDate" class="form-control" required />
+    </div>
+
+    <button type="submit" name="paymentMethod" value="Tiền mặt" class="btn btn-primary">Xác nhận và Đặt hàng trả tiền mặt</button>
+    <button type="submit" name="paymentMethod" value="Chuyển khoản" class="btn btn-success">Xác nhận và Đặt hàng trả tiền qua tài khoản</button>
+</form>
