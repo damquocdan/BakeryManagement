@@ -267,3 +267,4 @@ E:\DATN\BakeryManagement\BakeryManagement\bin\Debug\net8.0\runtimes\win\lib\net7
 E:\DATN\BakeryManagement\BakeryManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\DATN\BakeryManagement\BakeryManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\DATN\BakeryManagement\BakeryManagement\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\DATN\BakeryManagement\BakeryManagement\obj\Debug\net8.0\BakeryManagement.sourcelink.json

@@ -19,10 +19,20 @@ namespace BakeryManagement.Controllers
         }
 
         // GET: Cakes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchTerm)
         {
-            return View(await _context.Cakes.ToListAsync());
+            ViewData["SearchTerm"] = searchTerm;
+
+            var cakes = from c in _context.Cakes select c;
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                cakes = cakes.Where(c => c.Name.Contains(searchTerm) || c.Description.Contains(searchTerm));
+            }
+
+            return View(await cakes.ToListAsync());
         }
+
 
         // GET: Cakes/Details/5
         public IActionResult Details(int id)

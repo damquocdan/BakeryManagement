@@ -12,7 +12,7 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromSeconds(3600);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
-    options.Cookie.Name = "LuxuryLife";
+    options.Cookie.Name = "Bakery";
 });
 // Add services to the container.
 builder.Services.AddControllersWithViews();

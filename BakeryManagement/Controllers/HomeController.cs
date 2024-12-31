@@ -18,7 +18,7 @@ namespace BakeryManagement.Controllers
 
         public IActionResult Index()
         {
-            var cakes = _context.Cakes.ToList();
+            var cakes = _context.Cakes.OrderByDescending(c=>c.CakeId).Take(3).ToList();
             return View(cakes);
         }
 

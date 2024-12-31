@@ -1,66 +1,195 @@
 ﻿@model IEnumerable<BakeryManagement.Models.Cake>
 
-@{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+    <style>
+    /* Hero Section */
+    .hero-section {
+        background-color: #f8d7da;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-<h1>Index</h1>
+        .hero-section h1 {
+            color: #d63384;
+            font-weight: bold;
+        }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stock)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                <a asp-action="O" asp-route-id="@item.CakeId">Edit</a>
-                <a asp-action="Details" asp-route-id="@item.CakeId">Details</a>
-                <a asp-action="Delete" asp-route-id="@item.CakeId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+    /* Cake Catalog */
+    .container {
+        padding: 1rem;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #d63384;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        background-color: #d63384;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #c41c76;
+        }
+
+    /* Search Bar */
+    .search-bar {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+        .search-bar input[type="text"] {
+            width: 50%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #d63384;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+            .search-bar button:hover {
+                background-color: #c41c76;
+            }
+
+    </style>
+<div class="search-bar">
+    <form method="get" asp-action="Index" asp-controller="Cakes">
+        <input type="text" name="searchTerm" placeholder="Tìm kiếm bánh..." value="@ViewData["SearchTerm"]" />
+        <button type="submit">Tìm kiếm</button>
+    </form>
+</div>
+
+<div class="hero-section">
+    <h1 class="text-center">Chào Mừng Bạn Đến Với Cửa Hàng Bánh Sinh Nhật!</h1>
+    <p class="text-center">Cung cấp những chiếc bánh sinh nhật đẹp mắt, ngon miệng và đầy ý nghĩa cho mọi dịp đặc biệt!</p>
+</div>
+
+<!-- Featured Cakes Carousel -->
+<!-- Cake Catalog -->
+<div class="container mt-4">
+    <h2 class="text-center">Sản Phẩm Của Chúng Tôi</h2>
+    <div class="row mt-4">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var cake in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="@cake.Image" class="card-img-top" alt="@cake.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@cake.Name</h5>
+                            <p class="card-text">@cake.Description</p>
+                            <p class="card-text text-primary fw-bold">Giá: @cake.Price.ToString("C")</p>
+                            <div class="d-flex justify-content-between">
+                                <!-- Button to trigger the modal -->
+                                <a href="javascript:void(0)" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#cakeDetailsModal" data-id="@cake.CakeId">Chi tiết</a>
+
+                                <a asp-controller="Carts" asp-action="Add" asp-route-id="@cake.CakeId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")" class="btn btn-primary btn-sm">Thêm vào giỏ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center">Không có bánh nào để hiển thị.</p>
+        }
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="cakeDetailsModal" tabindex="-1" role="dialog" aria-labelledby="cakeDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cakeDetailsModalLabel">Chi tiết Bánh</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Details will be loaded here dynamically -->
+                <div id="cakeDetailsContainer">
+                    <!-- Dynamic content for cake details will be loaded here -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // When the modal is shown, load the cake details
+    $('#cakeDetailsModal').on('show.bs.modal', function (e) {
+        var cakeId = $(e.relatedTarget).data('id'); // Get cake ID from the clicked button
+        $.ajax({
+            url: '@Url.Action("Details", "Cakes")', // The action to fetch cake details
+            type: 'GET',
+            data: { id: cakeId }, // Pass the cake ID
+            success: function (data) {
+                // Replace the modal content with the fetched details
+                $('#cakeDetailsContainer').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error('Error loading cake details: ' + error);
+            }
+        });
+    });
+    const sections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    sections.forEach(section => observer.observe(section));
+</script>
+
