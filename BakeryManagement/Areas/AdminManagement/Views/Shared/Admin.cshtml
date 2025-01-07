@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang quản lý - KTX HUNRE</title>
+    <title>Trang quản lý - Bình bánh ngọt</title>
     <link rel="icon" type="image/x-icon" href="~/favicon-32x32.png">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/Lesson07.Assignment.styles.css" asp-append-version="true" />
@@ -31,7 +31,152 @@
     <!-- summernote -->
     <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7b1ae;
+    color: #333;
+}
 
+/* Preloader */
+.preloader {
+    background-color: #f7b1ae;
+    color: #ed3d34;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ed3d34;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #f7b1ae;
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #ed3d34;
+    color: #fff;
+    height: 100%;
+}
+
+.brand-link {
+    background-color: #f7b1ae;
+    color: #ed3d34;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ed3d34;
+}
+
+.brand-link:hover {
+    background-color: #ed3d34;
+    color: #fff;
+}
+
+.nav-sidebar .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.nav-sidebar .nav-link:hover {
+    background-color: #f7b1ae;
+    color: #ed3d34;
+}
+
+.nav-sidebar .nav-icon {
+    color: #fff;
+}
+
+.nav-sidebar .nav-treeview .nav-link {
+    padding-left: 30px;
+}
+
+/* User Panel */
+.user-panel {
+    background-color: #f7b1ae;
+    padding: 10px;
+    color: #ed3d34;
+    border-top: 1px solid #ed3d34;
+}
+
+.user-panel a {
+    color: #ed3d34;
+    text-decoration: none;
+}
+
+.user-panel a:hover {
+    color: #fff;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    background-color: #fff;
+    border-left: 4px solid #ed3d34;
+    min-height: 100vh;
+}
+
+.content-wrapper .content-header {
+    background-color: #f7b1ae;
+    color: #ed3d34;
+    padding: 15px;
+    border-bottom: 2px solid #ed3d34;
+}
+
+.content-wrapper .container-fluid {
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    background-color: #ed3d34;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7b1ae;
+    color: #ed3d34;
+}
+
+/* Footer or Control Sidebar */
+.control-sidebar {
+    background-color: #ed3d34;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+}
+
+.control-sidebar a {
+    color: #f7b1ae;
+    text-decoration: none;
+}
+
+.control-sidebar a:hover {
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+
+    </style>
 </head>
 <body>
     <section class="wrapper">

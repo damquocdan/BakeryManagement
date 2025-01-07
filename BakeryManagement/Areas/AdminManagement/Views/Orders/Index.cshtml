@@ -122,6 +122,9 @@
             <th>
                 Số điện thoại khách hàng
             </th>
+            <th>
+                Địa chỉ khách hàng
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -153,6 +156,9 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Customer.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer.Address)
                 </td>
             </tr>
         }

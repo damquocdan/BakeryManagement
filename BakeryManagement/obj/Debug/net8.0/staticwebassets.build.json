@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Z1F0sXp7zuLLBWcQrwRPRgN6B1rr6N8RMyaQ0uOXmY=",
+  "Hash": "uwAaY1M5yE1Mdg3bxI//8QDQQG+UbunZkEcaGmjo/2Y=",
   "Source": "BakeryManagement",
   "BasePath": "_content/BakeryManagement",
   "Mode": "Default",
@@ -965,25 +965,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\img\\logo.png"
-    },
-    {
-      "Identity": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\logologin.png",
-      "SourceId": "BakeryManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\",
-      "BasePath": "_content/BakeryManagement",
-      "RelativePath": "dist/img/logologin.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dist\\img\\logologin.png"
     },
     {
       "Identity": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\photo1.png",
