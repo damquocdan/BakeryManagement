@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\DATN\\BakeryManagement\\BakeryManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BakeryManagement.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BakeryManagement.bundle.scp.css"
+      "PackagePath": "staticwebassets\\BakeryManagement.1a1gwmocs1.bundle.scp.css"
     },
     {
       "Id": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\css\\site.css",
@@ -559,6 +559,10 @@
     {
       "Id": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BakeryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BakeryManagement.Microsoft.AspNetCore.StaticWebAssets.props",
