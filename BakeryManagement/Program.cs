@@ -7,6 +7,7 @@ builder.Services.AddDbContext<BakeryManagementContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromSeconds(3600);

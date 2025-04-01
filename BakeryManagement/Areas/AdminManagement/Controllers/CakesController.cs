@@ -166,10 +166,31 @@ namespace BakeryManagement.Areas.AdminManagement.Controllers
             var cake = await _context.Cakes.FindAsync(id);
             if (cake != null)
             {
+                // Xóa tất cả Cart chứa CakeId này
+                var carts = _context.Carts.Where(c => c.CakeId == id);
+                _context.Carts.RemoveRange(carts);
+
+                // Xóa tất cả OrderDetail chứa CakeId này
+                var orderDetails = _context.OrderDetails.Where(od => od.CakeId == id);
+                _context.OrderDetails.RemoveRange(orderDetails);
+
+                // Xóa hình ảnh của bánh (nếu có)
+                if (!string.IsNullOrEmpty(cake.Image))
+                {
+                    var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", cake.Image.TrimStart('/'));
+                    if (System.IO.File.Exists(imagePath))
+                    {
+                        System.IO.File.Delete(imagePath);
+                    }
+                }
+
+                // Xóa Cake
                 _context.Cakes.Remove(cake);
+
+                // Lưu thay đổi
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

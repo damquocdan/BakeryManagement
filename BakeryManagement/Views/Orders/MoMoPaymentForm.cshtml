@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Thanh toán qua MoMo";
+}
+
+<h1>Thanh toán qua MoMo</h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<form method="post" asp-action="MoMoPaymentForm">
+    <div class="form-group">
+        <label for="cardHolderName">Tên chủ thẻ</label>
+        <input type="text" id="cardHolderName" name="cardHolderName" class="form-control" placeholder="NGUYEN VAN A" required />
+    </div>
+    <div class="form-group">
+        <label for="cardNumber">Số thẻ</label>
+        <input type="text" id="cardNumber" name="cardNumber" class="form-control" placeholder="9704 0000 0000 0018" required />
+    </div>
+    <div class="form-group">
+        <label for="expiryDate">Ngày hết hạn (MM/YY)</label>
+        <input type="text" id="expiryDate" name="expiryDate" class="form-control" placeholder="03/07" required />
+    </div>
+    <div class="form-group">
+        <label for="otp">Mã OTP</label>
+        <input type="text" id="otp" name="otp" class="form-control" placeholder="OTP" required />
+    </div>
+    <button type="submit" class="btn btn-success">Thanh toán</button>
+</form>

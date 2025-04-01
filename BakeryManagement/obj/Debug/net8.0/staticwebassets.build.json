@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5azeeLeROd94WnttAqQmaBQq57K592rU5jEQr5HxhHY=",
+  "Hash": "cWp72Vj23EoLDK/vObd/CmO2GMGxspiBfw3Za56qhlw=",
   "Source": "BakeryManagement",
   "BasePath": "_content/BakeryManagement",
   "Mode": "Default",
@@ -1695,6 +1695,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banner3.png"
+    },
+    {
+      "Identity": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png",
+      "SourceId": "BakeryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\",
+      "BasePath": "_content/BakeryManagement",
+      "RelativePath": "images/cakes/01721701-a994-4c70-9549-af1db15e35df#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pomk5utx9v",
+      "Integrity": "2RxOcPrWPz8vm24X7/cRdPglbk7qRI5y6HDa5muS+U4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png"
     },
     {
       "Identity": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\banh.png",
@@ -9496,6 +9517,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1jc99HDDhIlKaZ7srjRg7fAkjkFoyxQXmu6mcjv6PGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/cakes/01721701-a994-4c70-9549-af1db15e35df.png",
+      "AssetFile": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RxOcPrWPz8vm24X7/cRdPglbk7qRI5y6HDa5muS+U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 05:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RxOcPrWPz8vm24X7/cRdPglbk7qRI5y6HDa5muS+U4="
+        }
+      ]
+    },
+    {
+      "Route": "images/cakes/01721701-a994-4c70-9549-af1db15e35df.pomk5utx9v.png",
+      "AssetFile": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RxOcPrWPz8vm24X7/cRdPglbk7qRI5y6HDa5muS+U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 05:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pomk5utx9v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cakes/01721701-a994-4c70-9549-af1db15e35df.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RxOcPrWPz8vm24X7/cRdPglbk7qRI5y6HDa5muS+U4="
         }
       ]
     },

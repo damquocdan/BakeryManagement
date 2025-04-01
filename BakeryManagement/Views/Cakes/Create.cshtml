@@ -1,59 +1,268 @@
 ﻿@model BakeryManagement.Models.Cake
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thiết Kế Bánh";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Thiết Kế Bánh Sinh Nhật</h2>
 
-<h4>Cake</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <canvas id="cakeCanvas" width="500" height="500" class="shadow-sm mb-4"></canvas>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="design-tools card p-4 shadow-sm">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="cakeShape" class="form-label fw-bold">Hình dạng bánh:</label>
+                        <select id="cakeShape" class="form-select">
+                            <option value="circle">Tròn</option>
+                            <option value="heart">Trái tim</option>
+                            <option value="square">Vuông</option>
+                            <option value="rectangle">Chữ nhật</option>
+                            <option value="diamond">Thoi</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="decoration" class="form-label fw-bold">Trang trí:</label>
+                        <select id="decoration" class="form-select">
+                            <option value="none">Không</option>
+                            <option value="candles">Nến sinh nhật</option>
+                            <option value="flowers">Hoa tươi</option>
+                            <option value="stars">Sao lấp lánh</option>
+                            <option value="balloons">Bóng bay</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="cakeText" class="form-label fw-bold">Chữ trên bánh:</label>
+                        <div class="input-group">
+                            <input type="text" id="cakeText" class="form-control" placeholder="Nhập chữ..." />
+                            <button id="addText" class="btn btn-outline-primary">Thêm</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="saveDesign" class="btn btn-success btn-lg mt-3">Lưu thiết kế</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Category" class="control-label"></label>
-                <input asp-for="Category" class="form-control" />
-                <span asp-validation-for="Category" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Stock" class="control-label"></label>
-                <input asp-for="Stock" class="form-control" />
-                <span asp-validation-for="Stock" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            <form asp-action="Create" method="post" class="card p-4 shadow-sm">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Tên bánh" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <input asp-for="Description" class="form-control" placeholder="Mô tả bánh" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label fw-bold"></label>
+                    <input asp-for="Price" class="form-control" placeholder="Giá (VND)" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Category" class="form-label fw-bold"></label>
+                    <input asp-for="Category" class="form-control" placeholder="Danh mục" />
+                    <span asp-validation-for="Category" class="text-danger"></span>
+                </div>
+                <div class="mb-3" hidden>
+                    <label asp-for="Image" class="form-label"></label>
+                    <input asp-for="Image" id="cakeImage" name="Image" class="form-control" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+                <div class="mb-3" hidden>
+                    <label asp-for="Stock" class="form-label"></label>
+                    <input asp-for="Stock" class="form-control" value="1" />
+                    <span asp-validation-for="Stock" class="text-danger"></span>
+                </div>
+                <div class="text-center">
+                    <input type="submit" value="Thêm vào giỏ hàng" class="btn btn-primary btn-lg" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<style>
+    #cakeCanvas {
+        border: 2px solid #8B4513;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .design-tools {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .btn-success, .btn-primary {
+        transition: all 0.3s ease;
+    }
+
+        .btn-success:hover, .btn-primary:hover {
+            transform: scale(1.05);
+        }
+</style>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+    <script>
+        var canvas = new fabric.Canvas('cakeCanvas');
+        var currentCake;
+
+        // Hàm tạo các hình dạng bánh
+        function createCakeShape(shape) {
+            if (currentCake) canvas.remove(currentCake);
+            switch (shape) {
+                case 'circle':
+                    currentCake = new fabric.Circle({ left: 150, top: 150, radius: 100, fill: '#f5d76e', stroke: '#8B4513', strokeWidth: 5 });
+                    break;
+                case 'heart':
+                    currentCake = new fabric.Path('M 200 300 Q 150 200 200 100 Q 250 200 200 300 Z', { fill: '#f5d76e', stroke: '#8B4513', strokeWidth: 5 });
+                    break;
+                case 'square':
+                    currentCake = new fabric.Rect({ left: 150, top: 150, width: 200, height: 200, fill: '#f5d76e', stroke: '#8B4513', strokeWidth: 5 });
+                    break;
+                case 'rectangle':
+                    currentCake = new fabric.Rect({ left: 150, top: 150, width: 250, height: 150, fill: '#f5d76e', stroke: '#8B4513', strokeWidth: 5 });
+                    break;
+                case 'diamond':
+                    currentCake = new fabric.Polygon([
+                        { x: 200, y: 100 }, { x: 300, y: 200 }, { x: 200, y: 300 }, { x: 100, y: 200 }
+                    ], { fill: '#f5d76e', stroke: '#8B4513', strokeWidth: 5 });
+                    break;
+            }
+            canvas.add(currentCake);
+            canvas.renderAll();
+        }
+
+        // Hàm tính toán vị trí trang trí và chữ dựa trên hình dạng bánh
+        function getCakeBounds() {
+            if (!currentCake) return { left: 150, top: 150, width: 200, height: 200 };
+            return {
+                left: currentCake.left,
+                top: currentCake.top,
+                width: currentCake.width || currentCake.radius * 2 || 200,
+                height: currentCake.height || currentCake.radius * 2 || 200
+            };
+        }
+
+        // Tạo bánh mặc định
+        createCakeShape('circle');
+
+        // Thay đổi hình dạng bánh
+        document.getElementById('cakeShape').addEventListener('change', function () {
+            createCakeShape(this.value);
+            canvas.getObjects().forEach(obj => { if (obj !== currentCake) canvas.remove(obj); });
+            canvas.renderAll();
+        });
+
+        // Thêm trang trí
+        document.getElementById('decoration').addEventListener('change', function () {
+            canvas.getObjects().forEach(obj => { if (obj !== currentCake) canvas.remove(obj); });
+            let bounds = getCakeBounds();
+
+            switch (this.value) {
+                case 'candles':
+                    for (let i = 0; i < 3; i++) {
+                        let candle = new fabric.Group([
+                            new fabric.Rect({ width: 10, height: 20, fill: '#ff4444' }),
+                            new fabric.Triangle({ width: 6, height: 6, fill: '#ffff00', top: -6 })
+                        ], {
+                            left: bounds.left + (bounds.width / 4) + i * 40,
+                            top: bounds.top + 10
+                        });
+                        canvas.add(candle);
+                    }
+                    break;
+                case 'flowers':
+                    let flower = new fabric.Group([
+                        new fabric.Circle({ radius: 15, fill: '#ff69b4' }),
+                        new fabric.Circle({ radius: 5, fill: '#ffff00', top: -5, left: -5 }),
+                        new fabric.Circle({ radius: 5, fill: '#ffff00', top: 5, left: 5 })
+                    ], {
+                        left: bounds.left + bounds.width / 2 - 15,
+                        top: bounds.top + 20
+                    });
+                    canvas.add(flower);
+                    break;
+                case 'stars':
+                    let star = new fabric.Polygon([
+                        { x: 0, y: -20 }, { x: 6, y: -6 }, { x: 20, y: -6 }, { x: 9, y: 6 }, { x: 12, y: 20 },
+                        { x: 0, y: 12 }, { x: -12, y: 20 }, { x: -9, y: 6 }, { x: -20, y: -6 }, { x: -6, y: -6 }
+                    ], {
+                        fill: '#ffd700',
+                        left: bounds.left + bounds.width / 2,
+                        top: bounds.top + 30
+                    });
+                    canvas.add(star);
+                    break;
+                case 'balloons':
+                    let balloon = new fabric.Group([
+                        new fabric.Ellipse({ rx: 15, ry: 20, fill: '#00ff00' }),
+                        new fabric.Line([0, 20, 0, 40], { stroke: '#000000', strokeWidth: 1 })
+                    ], {
+                        left: bounds.left + bounds.width / 2 - 15,
+                        top: bounds.top + 10
+                    });
+                    canvas.add(balloon);
+                    break;
+            }
+            canvas.renderAll();
+        });
+
+        // Thêm chữ lên bánh
+        document.getElementById('addText').addEventListener('click', function () {
+            let text = document.getElementById('cakeText').value;
+            if (text) {
+                let bounds = getCakeBounds();
+                let cakeText = new fabric.Text(text, {
+                    left: bounds.left + bounds.width / 2 - (text.length * 5),
+                    top: bounds.top + bounds.height / 2,
+                    fill: '#ff0000',
+                    fontSize: 20,
+                    fontFamily: 'Arial',
+                    textAlign: 'center'
+                });
+                canvas.add(cakeText);
+                canvas.renderAll();
+            }
+        });
+
+        // Lưu thiết kế
+        document.getElementById('saveDesign').addEventListener('click', function () {
+            var imageData = canvas.toDataURL('image/png');
+            document.getElementById('cakeImage').value = imageData;
+            alert("Thiết kế đã được lưu vào form!");
+        });
+
+        // Tự động lưu thiết kế trước khi submit form
+        document.querySelector('form').addEventListener('submit', function () {
+            var imageData = canvas.toDataURL('image/png');
+            document.getElementById('cakeImage').value = imageData;
+        });
+    </script>
 }

@@ -309,6 +309,10 @@
       "PackagePath": "staticwebassets\\images\\banner3.png"
     },
     {
+      "Id": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png",
+      "PackagePath": "staticwebassets\\images\\cakes\\01721701-a994-4c70-9549-af1db15e35df.png"
+    },
+    {
       "Id": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\images\\cakes\\banh.png",
       "PackagePath": "staticwebassets\\images\\cakes\\banh.png"
     },

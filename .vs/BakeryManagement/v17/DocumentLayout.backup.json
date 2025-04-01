@@ -3,352 +3,72 @@
   "WorkspaceRootPath": "E:\\DATN\\BakeryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\cakes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\cakes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\cakes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\cakes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\cakes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\cakes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\default-150x150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\default-150x150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\icons.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\icons.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\photo4.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\photo4.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\prod-1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\prod-1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\adminltelogo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\adminltelogo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\avatar.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\avatar.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\img\\boxed-bg.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\img\\boxed-bg.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\js\\adminlte.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\js\\adminlte.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\wwwroot\\dist\\js\\demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\wwwroot\\dist\\js\\demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\orders\\confirmaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\orders\\confirmaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\cakes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\cakes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\orders\\momopaymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\orders\\momopaymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\cakes\\_cakedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\cakes\\_cakedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\cakes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\cakes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\cakescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\cake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\cake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\cakes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\loginc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\loginc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\areas\\adminmanagement\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\areas\\adminmanagement\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\models\u200B\\bakerymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\models\u200B\\bakerymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|e:\\datn\\bakerymanagement\\bakerymanagement\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2557629-4EBA-4741-B23C-B18A39E5A6EE}|BakeryManagement\\BakeryManagement.csproj|solutionrelative:bakerymanagement\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -357,8 +77,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 744,
-          "SelectedChildIndex": 13,
+          "DockedWidth": 562,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -378,1044 +98,208 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Delete.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Delete.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Delete.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwDoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:16:43.198Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Create.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Create.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Create.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Create.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGgAAAAdAAAAAAAAAA==",
+              "Title": "MoMoPaymentForm.cshtml",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\MoMoPaymentForm.cshtml",
+              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Orders\\MoMoPaymentForm.cshtml",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\MoMoPaymentForm.cshtml",
+              "RelativeToolTip": "BakeryManagement\\Views\\Orders\\MoMoPaymentForm.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:17:21.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Details.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwFcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:15:57.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:15:42.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CakesController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwHAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:19:47.811Z"
+              "WhenOpened": "2025-03-31T04:41:38.047Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "BakeryManagement\\appsettings.json",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\appsettings.json",
-              "RelativeToolTip": "BakeryManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T01:06:18.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Program.cs",
               "RelativeDocumentMoniker": "BakeryManagement\\Program.cs",
               "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Program.cs",
               "RelativeToolTip": "BakeryManagement\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:07:32.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T04:28:15.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\OrdersController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:14:07.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:29:56.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:16:05.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Models\\Login.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Models\\Login.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Models\\Login.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:15:18.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Index.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwIAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:14:40.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartsController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CartsController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\CartsController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CartsController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\CartsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wB8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:49:54.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\CustomersController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAIwBsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:42:40.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginC.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\\LoginC.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\\LoginC.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\\LoginC.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\\LoginC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:54:13.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Order.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Order.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Order.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Order.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\u200B\\Order.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:19:21.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginCController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\LoginCController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\LoginCController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\LoginCController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\LoginCController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:53:41.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:16:02.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T02:36:35.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:17:57.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T08:59:16.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:18:02.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:49:44.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:57:03.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T02:36:41.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:18:08.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T02:26:15.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T06:08:55.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T08:41:54.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_Preloader.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T01:46:57.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAowKQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T06:53:02.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T02:04:58.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "prod-1.jpg",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\prod-1.jpg",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\prod-1.jpg",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\prod-1.jpg",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\prod-1.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:43.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "avatar.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\avatar.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\avatar.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\avatar.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\avatar.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:39.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:31:36.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAANQAAAAAAAAAAADwv5MBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:28:39.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AdminLTELogo.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\AdminLTELogo.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\AdminLTELogo.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\AdminLTELogo.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\AdminLTELogo.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:18.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "boxed-bg.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\boxed-bg.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\boxed-bg.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\boxed-bg.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\boxed-bg.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:36.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "default-150x150.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\default-150x150.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\default-150x150.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\default-150x150.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\default-150x150.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:34.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "photo4.jpg",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\photo4.jpg",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\photo4.jpg",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\photo4.jpg",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\photo4.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:46.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "logo.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\logo.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\logo.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\logo.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\logo.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:30.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-07T02:03:56.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "icons.png",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\icons.png",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\img\\icons.png",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\img\\icons.png",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\img\\icons.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:06:24.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "dashboard.js",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\pages\\dashboard.js",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\js\\pages\\dashboard.js",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\pages\\dashboard.js",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\js\\pages\\dashboard.js",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T02:06:09.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "adminlte.js",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\adminlte.js",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\js\\adminlte.js",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\adminlte.js",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\js\\adminlte.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T02:06:03.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "demo.js",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\demo.js",
-              "RelativeDocumentMoniker": "BakeryManagement\\wwwroot\\dist\\js\\demo.js",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\wwwroot\\dist\\js\\demo.js",
-              "RelativeToolTip": "BakeryManagement\\wwwroot\\dist\\js\\demo.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T02:06:01.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:17:57.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Customers\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T00:04:57.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CakesController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CakesController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\CakesController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CakesController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\CakesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:24:39.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\OrderDetail.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\OrderDetail.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\u200B\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:19:35.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Cakes\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Cakes\\Index.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIAAAAClAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T07:40:21.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ConfirmAddress.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T03:22:34.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Orders\\Details.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAwEMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:38:41.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "BakeryManagement\\Views\\Orders\\Index.cshtml",
               "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "BakeryManagement\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFwAAABbAAAA",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T09:22:36.836Z"
+              "WhenOpened": "2025-03-31T04:24:41.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "_CakeDetails.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\_CakeDetails.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Cakes\\_CakeDetails.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\_CakeDetails.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Cakes\\_CakeDetails.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAADwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T03:42:58.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Cakes\\Edit.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:15:24.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Index.cshtml",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAwwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:07:03.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\EmployeesController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BakeryManagement\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAmwPkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:21:17.383Z"
+              "WhenOpened": "2025-03-31T04:22:34.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:43:38.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Customer.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Customer.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Customer.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\u200B\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T07:08:50.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Admin.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Admin.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Admin.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\u200B\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T07:07:18.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Create.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Create.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Create.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Create.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAwwEAAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "ConfirmAddress.cshtml",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
+              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
+              "RelativeToolTip": "BakeryManagement\\Views\\Orders\\ConfirmAddress.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:36:24.02Z"
+              "WhenOpened": "2025-03-31T04:17:08.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Delete.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Delete.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Delete.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAwwFAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:35:29.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Details.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAwwEwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:23:15.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Edit.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAwwEQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:22:35.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwFoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T01:50:07.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Create.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Create.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Create.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Create.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwEcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:21:03.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Delete.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Delete.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Delete.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwD4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:20:23.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Details.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwDkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:19:43.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Customers\\Edit.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwC0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:18:52.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Create.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Create.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Create.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Create.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwD4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:10:09.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Delete.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Delete.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Delete.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:13:06.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Details.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAEgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:12:34.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Views\\Admins\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T07:11:55.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 11,
               "Title": "Employee.cs",
               "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Employee.cs",
               "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Employee.cs",
               "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Employee.cs",
               "RelativeToolTip": "BakeryManagement\\Models\u200B\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T07:09:21.625Z"
+              "WhenOpened": "2025-03-31T04:14:12.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 13,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\OrderDetail.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\OrderDetail.cs",
+              "RelativeToolTip": "BakeryManagement\\Models\u200B\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:13:57.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Order.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Order.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Order.cs",
+              "RelativeToolTip": "BakeryManagement\\Models\u200B\\Order.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:13:53.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Customer.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Customer.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Customer.cs",
+              "RelativeToolTip": "BakeryManagement\\Models\u200B\\Customer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:13:43.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Cart.cs",
               "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Cart.cs",
               "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Cart.cs",
               "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Cart.cs",
               "RelativeToolTip": "BakeryManagement\\Models\u200B\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T07:08:47.075Z"
+              "WhenOpened": "2025-03-31T04:13:30.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Customers\\Edit.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Edit.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Customers\\Edit.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAG4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T04:31:31.07Z"
+              "DocumentIndex": 7,
+              "Title": "CakesController.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
+              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\CakesController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwMIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:12:58.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 14,
               "Title": "Cake.cs",
               "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Cake.cs",
               "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\Cake.cs",
               "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\Cake.cs",
               "RelativeToolTip": "BakeryManagement\\Models\u200B\\Cake.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T04:24:54.191Z"
+              "WhenOpened": "2025-03-31T03:06:23.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Details.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Customers\\Details.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Details.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Customers\\Details.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T04:06:40.879Z"
+              "DocumentIndex": 16,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\CartsController.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "BakeryManagement\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAYwBUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T02:53:22.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Customers\\Delete.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Customers\\Delete.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\Customers\\Delete.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwC8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T04:05:59.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\LoginC\\Index.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\LoginC\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\LoginC\\Index.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\LoginC\\Index.cshtml",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwGoAAAAAAAAA",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Carts\\Index.cshtml",
+              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Carts\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Carts\\Index.cshtml",
+              "RelativeToolTip": "BakeryManagement\\Views\\Carts\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T02:38:48.436Z"
+              "WhenOpened": "2025-03-31T02:49:49.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "OrderDetailsController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrderDetailsController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\OrderDetailsController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\OrderDetailsController.cs",
-              "RelativeToolTip": "BakeryManagement\\Controllers\\OrderDetailsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "CakesController.cs",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CakesController.cs",
+              "RelativeDocumentMoniker": "BakeryManagement\\Controllers\\CakesController.cs",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Controllers\\CakesController.cs",
+              "RelativeToolTip": "BakeryManagement\\Controllers\\CakesController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:24:46.865Z"
+              "WhenOpened": "2025-03-31T02:39:39.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "BakeryManagement\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "BakeryManagement\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Create.cshtml",
+              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Cakes\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Create.cshtml",
+              "RelativeToolTip": "BakeryManagement\\Views\\Cakes\\Create.cshtml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAAsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T02:26:12.837Z"
+              "WhenOpened": "2025-03-31T02:37:39.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:54:48.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "BakeryManagementContext.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\BakeryManagementContext.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Models\u200B\\BakeryManagementContext.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Models\u200B\\BakeryManagementContext.cs",
-              "RelativeToolTip": "BakeryManagement\\Models\u200B\\BakeryManagementContext.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA9wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:18:52.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "BakeryManagement\\Areas\\AdminManagement\\Controllers\\AdminsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:18:57.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "BakeryManagement\\ScaffoldingReadMe.txt",
-              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "BakeryManagement\\ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-30T01:14:20.823Z"
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Index.cshtml",
+              "RelativeDocumentMoniker": "BakeryManagement\\Views\\Cakes\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\BakeryManagement\\BakeryManagement\\Views\\Cakes\\Index.cshtml",
+              "RelativeToolTip": "BakeryManagement\\Views\\Cakes\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T02:35:30.716Z"
             }
           ]
         }

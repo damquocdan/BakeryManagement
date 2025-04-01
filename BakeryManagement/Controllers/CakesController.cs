@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BakeryManagement.Models;
 
@@ -22,7 +22,6 @@ namespace BakeryManagement.Controllers
         public async Task<IActionResult> Index(string searchTerm)
         {
             ViewData["SearchTerm"] = searchTerm;
-
             var cakes = from c in _context.Cakes select c;
 
             if (!string.IsNullOrEmpty(searchTerm))
@@ -33,7 +32,6 @@ namespace BakeryManagement.Controllers
             return View(await cakes.ToListAsync());
         }
 
-
         // GET: Cakes/Details/5
         public IActionResult Details(int id)
         {
@@ -42,11 +40,8 @@ namespace BakeryManagement.Controllers
             {
                 return NotFound();
             }
-
-            // Return the partial view with the cake details
             return PartialView("_CakeDetails", cake);
         }
-
 
         // GET: Cakes/Create
         public IActionResult Create()
@@ -54,104 +49,73 @@ namespace BakeryManagement.Controllers
             return View();
         }
 
-        // POST: Cakes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Cakes/Create (Thêm vào giỏ hàng)
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CakeId,Name,Description,Price,Category,Image,Stock")] Cake cake)
         {
             if (ModelState.IsValid)
             {
+                var customerId = HttpContext.Session.GetInt32("CustomerId");
+                if (customerId == null)
+                {
+                    TempData["Error"] = "Bạn cần đăng nhập để thêm bánh vào giỏ hàng.";
+                    return RedirectToAction("Index", "LoginC");
+                }
+
+                // Xử lý hình ảnh từ dữ liệu Base64
+                if (!string.IsNullOrEmpty(cake.Image) && cake.Image.Contains("data:image"))
+                {
+                    try
+                    {
+                        string fileName = $"{Guid.NewGuid()}.png";
+                        string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/cakes", fileName);
+
+                        // Tạo thư mục nếu chưa tồn tại
+                        string directory = Path.GetDirectoryName(filePath);
+                        if (!Directory.Exists(directory))
+                        {
+                            Directory.CreateDirectory(directory);
+                        }
+
+                        // Chuyển Base64 thành mảng byte và lưu file
+                        byte[] imageBytes = Convert.FromBase64String(cake.Image.Split(',')[1]);
+                        await System.IO.File.WriteAllBytesAsync(filePath, imageBytes);
+
+                        // Cập nhật đường dẫn ảnh vào thuộc tính Image
+                        cake.Image = "/images/cakes/" + fileName;
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("Image", $"Lỗi khi lưu hình ảnh: {ex.Message}");
+                        return View(cake);
+                    }
+                }
+                else
+                {
+                    // Nếu không có hình ảnh được cung cấp, gán một ảnh mặc định (tùy chọn)
+                    cake.Image = "/images/cakes/default.png";
+                }
+
+                // Thêm bánh vào cơ sở dữ liệu
                 _context.Add(cake);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(cake);
-        }
 
-        // GET: Cakes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var cake = await _context.Cakes.FindAsync(id);
-            if (cake == null)
-            {
-                return NotFound();
-            }
-            return View(cake);
-        }
-
-        // POST: Cakes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CakeId,Name,Description,Price,Category,Image,Stock")] Cake cake)
-        {
-            if (id != cake.CakeId)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                // Thêm vào giỏ hàng
+                var cart = new Cart
                 {
-                    _context.Update(cake);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CakeExists(cake.CakeId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(cake);
-        }
+                    CustomerId = customerId.Value,
+                    CakeId = cake.CakeId,
+                    Quantity = 1
+                };
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
 
-        // GET: Cakes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var cake = await _context.Cakes
-                .FirstOrDefaultAsync(m => m.CakeId == id);
-            if (cake == null)
-            {
-                return NotFound();
+                TempData["Success"] = "Bánh đã được thêm vào giỏ hàng!";
+                return RedirectToAction("Index", "Carts");
             }
 
             return View(cake);
-        }
-
-        // POST: Cakes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var cake = await _context.Cakes.FindAsync(id);
-            if (cake != null)
-            {
-                _context.Cakes.Remove(cake);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
         }
 
         private bool CakeExists(int id)

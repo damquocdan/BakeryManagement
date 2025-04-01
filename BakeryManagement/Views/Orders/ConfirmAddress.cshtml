@@ -13,17 +13,48 @@
     </div>
 }
 
-<form method="post" asp-action="PlaceOrderWithAddress">
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<form method="post" asp-action="PlaceOrderWithAddress" onsubmit="return validateDate()">
     <div class="form-group">
         <label for="newAddress">Địa chỉ giao hàng</label>
         <input type="text" name="newAddress" class="form-control" value="@Model.Address" placeholder="Nhập địa chỉ mới nếu cần" />
     </div>
 
     <div class="form-group">
-        <label for="deliveryDate">Ngày giao hàng</label>
-        <input type="date" name="deliveryDate" class="form-control" required />
+        <label for="deliveryDate">Ngày giao hàng (dd/MM/yyyy)</label>
+        <input type="text" id="deliveryDate" name="deliveryDate" class="form-control" placeholder="dd/MM/yyyy" required />
     </div>
 
     <button type="submit" name="paymentMethod" value="Tiền mặt" class="btn btn-primary">Xác nhận và Đặt hàng trả tiền mặt</button>
-    <button type="submit" name="paymentMethod" value="Chuyển khoản" class="btn btn-success">Xác nhận và Đặt hàng trả tiền qua tài khoản</button>
+    <button type="submit" name="paymentMomo" value="Chuyển khoản" class="btn btn-success">Xác nhận và Thanh toán qua MoMo</button>
 </form>
+
+<script>
+    function validateDate() {
+        const input = document.getElementById("deliveryDate").value;
+        const regex = /^(\d{2})\/(\d{2})\/(\d{4})$/;
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        if (!regex.test(input)) {
+            alert("Vui lòng nhập ngày theo định dạng dd/MM/yyyy.");
+            return false;
+        }
+
+        const [_, day, month, year] = input.match(regex);
+        const selectedDate = new Date(`${year}-${month}-${day}`);
+
+        if (selectedDate <= today) {
+            alert("Ngày giao hàng phải lớn hơn ngày hôm nay!");
+            return false;
+        }
+
+        return true;
+    }
+</script>
